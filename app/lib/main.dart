@@ -22,9 +22,12 @@ class MyApp extends StatelessWidget {
     //   ),
     // );
     return MaterialApp(
-      title: 'Startup Name Generator',
+      title: 'Ifinite Name Generator',
       theme: ThemeData(
+        brightness: Brightness.dark,
         primaryColor: Colors.blueGrey,
+        accentColor: Colors.cyan,
+        backgroundColor: Colors.blue,
       ),
       home: RandomWords(),
     );
